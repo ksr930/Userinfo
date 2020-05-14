@@ -17,12 +17,13 @@ app.use(methodoverride("_method"))
  app.set("view engine","ejs")
 
 
-app.get('',(req,res)=>{
+app.get('/',(req,res)=>{
 	res.render('landing')
 })
 
 
 app.use('/api',routes)
+
 var uri =process.env.MONGODB_URI;
 
 
