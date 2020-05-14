@@ -1,6 +1,6 @@
 const express=require('express')
 const mongoose=require('mongoose')
-const bodyParser=require('body-Parser')
+const bodyParser=require('body-parser')
 const userroutes = require('./modules/usermodule.js')
 const routes = require('./Routes/userrouter.js')
 var methodoverride = require("method-override")
