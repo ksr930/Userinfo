@@ -27,7 +27,9 @@ var uri =process.env.MONGODB_URI;
 
 mongoose.connect(uri)
 
-
+app.get('',(req,res)=>{
+	res.render('landing')
+})
 
 
 
